@@ -1,0 +1,45 @@
+/* Container styles */
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.devhub-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #393939;
+  }
+
+
+  
+  /* Circular image styles */
+  .circle-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image doesn't stretch */
+    border: 4px solid #007bff; /* Optional: Adds a border */
+    margin-bottom: 20px;
+  }
+  
+  /* Subscribe link styles */
+  .subscribe-link {
+    text-decoration: none;
+  }
+  
+  .subscribe-image {
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .subscribe-image:hover {
+    transform: scale(1.1); /* Adds a hover effect */
+  }
