@@ -86,7 +86,7 @@ Code Flow
 Example Usage
 
 	•	Folder Structure:
-
+```js
 src/
 ├── pages/
 │   ├── _app.tsx
@@ -96,7 +96,7 @@ src/
 │   ├── [id].tsx
 │   ├── posts/
 │   │   ├── [slug].tsx
-
+```
 
 	•	Generated Routes:
 	•	/ → index.tsx
@@ -114,9 +114,3 @@ Benefits
 This file acts as the backbone of the application’s routing system, offering a clean and efficient way to manage routes dynamically.
 
 ```
-
-# react-file-based-routing
-# react-file-based-routing
-# react-file-based-routing
-# react-file-based-routing
-# react-file-based-routing
